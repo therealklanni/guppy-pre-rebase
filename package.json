@@ -1,0 +1,27 @@
+{
+  "name": "guppy-pre-rebase",
+  "version": "0.1.0",
+  "description": "Installs a pre-rebase git-hook only, for guppy packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "guppy pre-rebase"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealklanni/guppy-pre-rebase.git"
+  },
+  "keywords": [
+    "guppy",
+    "pre-rebase"
+  ],
+  "author": "Kevin Lanni (https://github.com/therealklanni)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealklanni/guppy-pre-rebase/issues"
+  },
+  "homepage": "https://github.com/therealklanni/guppy-pre-rebase",
+  "dependencies": {
+    "guppy-cli": "^0.2.4"
+  }
+}
