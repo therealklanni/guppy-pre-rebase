@@ -1,6 +1,6 @@
 {
   "name": "guppy-pre-rebase",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Installs a pre-rebase git-hook only, for guppy packages",
   "main": "index.js",
   "scripts": {
